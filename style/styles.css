@@ -21,7 +21,7 @@ nav>ul {
 
 nav li {
     margin-right: 50px;
-    
+
 }
 
 nav a {
@@ -53,13 +53,14 @@ nav a {
 }
 
 /* header */
-.header{
+.header {
     background-color: #FFF8F3;
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
 }
-.banner{
+
+.banner {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
@@ -67,44 +68,123 @@ nav a {
     width: 80%;
     align-items: right;
 }
-.profile{
+
+.profile {
     width: 500px;
     height: 600px;
 }
-.banner-greeting{
+
+.banner-greeting {
     font-size: 45px;
-    color:#474747;
+    color: #474747;
     font-weight: 100;
     font-family: 'Lato', sans-serif;
     margin-bottom: 0;
-    
+
 }
-.banner-title{
+
+.banner-title {
     font-size: 85px;
     font-weight: 700;
     font-family: 'Lato', sans-serif;
     margin-top: 0px;
 }
-.banner-container{
+
+.banner-container {
     max-width: 500px;
 }
-p{
+
+p {
     font-family: 'Lato', sans-serif;
 }
-.developer{
+
+.developer {
     width: 150px;
     height: 700px;
 
 }
+
 /* main */
 
+main {
+    max-width: 1140px;
+    margin: 50px auto;
+}
 
-
-.about{
-    width: 50%;
-    margin: 80px 220px;
+.about {
+    /* width: 50%; */
+    /* margin: 80px 220px; */
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
     border: 1px solid black;
+    text-align: center;
+}
+
+.about-container {
+    display: flex;
+}
+
+.about-container-info {
+    margin: auto;
+}
+
+.name {
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 0;
+}
+
+.info {
+    margin-top: 2px;
+}
+
+#one {
+    text-align: center;
+    padding-top: 60px;
+}
+
+#two {
+    padding: 15px 130px;
+    text-align: center;
+}
+
+
+/* skill     */
+main section {
+    margin-top: 100px;
+}
+
+.skill-container {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    gap: 24px;
+    
+    /* background: #FFF; */
+    
+}
+.skill{
+    /* margin-right: 30px; */
+    padding: 40px;
+    margin: 0px auto;
+    /* border: 1px solid black; */
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06); 
+    border-radius: 5px;
+}
+.section-title{
+    text-align: center;
+}
+
+/* resume */
+.resume-container{
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    gap: 24px;
+    align-items: center;
+    /* text-align: center; */
+}
+#three{
+    /* align-items: center; */
+    /* margin: 20px auto; */
+    text-align: center;
+    /* border: 1px solid black; */
 }
