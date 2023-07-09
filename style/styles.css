@@ -55,13 +55,56 @@ nav a {
 /* header */
 .header{
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    align-items: right;
 }
 .profile{
     width: 500px;
     height: 600px;
+}
+.banner-greeting{
+    font-size: 45px;
+    color:#474747;
+    font-weight: 100;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 0;
+    
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    margin-top: 0px;
+}
+.banner-container{
+    max-width: 500px;
+}
+p{
+    font-family: 'Lato', sans-serif;
+}
+.developer{
+    width: 150px;
+    height: 700px;
+
+}
+/* main */
+
+
+
+.about{
+    width: 50%;
+    margin: 80px 220px;
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    border: 1px solid black;
 }
